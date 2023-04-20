@@ -11,8 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Homemade+Apple&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600&display=swap"
       rel="stylesheet"
     />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.css" />
-
   <link rel="stylesheet" href="./css/layout.css">
   <title>RUCO</title>
 </head>
@@ -315,15 +313,132 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
         <button>Learn More</button>
-      </div>
-  
-    
-
+      </div> 
     </div>
-   
-  
   </div>
  </section>
+ <section class="review reveal" data-thres=".4">
+  <h3>What People Say About Us</h3>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="review_cont">
+          <div class="pic"></div>
+          <div class="mention">This is the great and best platform for yoga and meditation. I got a very good body
+            at body now, my body shapes is fine now. I am very grateful to them. They are providing a great service.
+          </div>
+          <p class="name">Trent Boult</p>
+          <p>Web Designer</p>
+        </div>
+      </div>
+      <!-- <div class="swiper-slide">
+      <div class="review_cont">
+        <div class="pic"></div>
+        <div class="mention">This is the great and best platform for yoga and meditation. I got a very good body
+            at body now, my body shapes is fine now. I am very grateful to them. They are providing a great service.
+          </div>
+          <p class="name">Trent Boult</p>
+          <p>Web Designer</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="review_cont">
+          <div class="pic"></div>
+          <div class="mention">This is the great and best platform for yoga and meditation. I got a very good body
+            at body now, my body shapes is fine now. I am very grateful to them. They are providing a great service.
+          </div>
+          <p class="name">Trent Boult</p>
+          <p>Web Designer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-pagination"></div> -->
+</section>
+ <script>
+  var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        loopAdditionalSlides: 1,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+ </script>
  </div>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ <footer class="d-flex flex-column ">
+  <div class="footer1">
+      <div class="animated-title">
+          <div class="track">
+              <div class="content">
+                  <img src="./brand/Amara.png" alt="">
+                  <img src="./brand/Aven.png" alt="">
+                  <img src="./brand/Earth 2.0.png" alt="">
+                  <img src="./brand/Kanba.png" alt="">
+                  <img src="./brand/Kyan.png" alt="">
+                  <img src="./brand/Nirastate.png" alt="">
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer2">
+          <ul class="container d-flex ">
+              <li>
+                  <div class="d-flex flex-column footer2-1">
+                      <img src="./assets/logo_f.svg" alt="">
+                      <p class="p_18">info@Logistic.company</p>
+                      <p class="p_18">+01 234 568 89</p>
+                      <p class="p_18">Mally pr. PS 87 St. Petersburg 19293</p>
+                      <div class="sns">
+                          <a href="#none">
+                              <img src="./assets/sns1.svg" alt="">
+                          </a>
+                          <a href="#none">
+                              <img src="./assets/sns2.svg" alt="">
+                          </a>
+                          <a href="#none">
+                              <img src="./assets/sns3.svg" alt="">
+                          </a>
+                          <a href="#none">
+                              <img src="./assets/sns4.svg" alt="">
+                          </a>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <ul class="g20 d-flex flex-column">
+                      <li><h6>Services</h6></li>
+                      <li><a href="#none">Treatment Menu</a></li>
+                      <li><a href="#none">Book a Treatment</a></li>
+                      <li><a href="#none">Review Client</a></li>
+                      <li><a href="#none">Shop Now</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <ul class="g20 d-flex flex-column">
+                      <li><h6>Customer Care</h6></li>
+                      <li><a href="#none">Privacy Policy</a></li>
+                      <li><a href="#none">DNA Frequently</a></li>
+                      <li><a href="#none">Gift Cards</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <ul class="g20 d-flex flex-column">
+                      <li><h6>Central Clinic</h6></li>
+                      <li><a href="#none">Branch Clinic</a></li>
+                      <li><a href="#none">Cranch Location</a></li>
+                      <li><a href="#none"><img src="./assets/toggle-f.svg" alt=""> Eng</a></li>
+                  </ul>
+              </li>
+          </ul>
+  </div>
+  <div class="copy d-flex align-items-center justify-content-center">
+      © 2022 Beauty Cosmetic. All Right Reserved. With Love By Elmous
+  </div>
+</footer>
+ 
 </body>
 </html>

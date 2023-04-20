@@ -11,10 +11,9 @@
   
 }
 .wrap{
-  margin: auto;
-  min-width: 1440px;
+  width: 1920px;
   max-width: 1920px;
-  box-sizing: border-box;
+  margin: 0 auto;
 }
 body{
   overflow-x: hidden;
@@ -493,6 +492,211 @@ form{
   height: 62px;
   color: #FFFFFF;
 }
+.review{
+  position: absolute;
+  width: 1351.82px;
+  height: 584.31px;
+  left: 268px;
+  top: 6522.69px;
+
+
+}
+.review{
+  margin: 8rem 0;
+}
+.review h3{
+  text-align: center;
+  position: relative;
+}
+.review .pic{
+  background-color: #EDC988;
+  background-image: url(../img/nav/image\ 758.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  display: block;
+  border-radius: 100px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: -55px;
+}
+.review_cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  margin-top: 4rem;
+  width: 50%;
+  padding: 4rem;
+  box-shadow: 0px 18px 36px 0px #00000012;
+  border: 1px solid #EDEDED;
+}
+.review h3::before{
+  content: "";
+  background-image: url(../../assets/images/week-2/leaf.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 22rem;
+  height: 22rem;
+  position: absolute;
+  transform: scaleY(-1) rotate(-38deg);
+  top: -6rem;
+  left: 4rem;
+}
+.review h3::after{
+  content: "";
+  background-image: url(../../assets/images/week-2/leaf.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 22rem;
+  height: 22rem;
+  position: absolute;
+  transform: scaleY(-1) rotate(-31deg);
+  top: 8rem;
+  right: 5.5rem;
+  z-index: 10;
+}
+.review_cont .mention{
+  width: 70%;
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.8;
+  z-index: 10;
+}
+.review_cont .name{
+  font-size: 20px;
+}
+.review_cont p{
+  font-size: 14px;
+  margin: 0.2rem;
+}
+.review .pagination{
+  margin: auto;
+  margin-top: 3rem;
+}
+.swiper-pagination{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.swiper-pagination-bullet{
+  position: relative;
+  border: 1px solid #C4C4C4;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  margin: 0 .3rem;
+}
+.swiper-pagination-bullet-active::before{
+  content: "";
+  background: linear-gradient(to right, #315316, #72A748);
+  background-position: center center;
+  border-radius: 50px;
+  width: 12px;
+  height: 12px;
+  top: 2px;
+  left: 2px;
+  display: block;
+  position: absolute;
+}
+footer{
+position: absolute;
+width: 2153px;
+height: 904px;
+left: -71.5px;
+top: 7257px;
+
+}
+
+footer{
+  /* width: 1920px; */
+  width: 100%;
+  min-width: 1440px;
+  color: #fff;
+  margin: 0 auto;
+}
+footer a{
+  color: white;
+}
+.footer1{
+  background-color: #CEDEA2;
+  height: 200px;
+}
+.animated-title {font-size:60px;font-weight:300;
+  position: relative; 
+  width: 100%;
+  max-width:100%; 
+  height: auto; 
+  padding:100px 0;
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+}
+.animated-title .track {
+  position: absolute; 
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 20s linear infinite; 
+}
+.animated-title img{
+  margin-right: 100px;
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (hover: hover) and (min-width: 700px){
+  .animated-title .content {
+      -webkit-transform: translateY(calc(100% - 8rem));
+      transform: translateY(calc(100% - 8rem));
+      }
+  }
+
+.footer2{
+  background-color: #315316;
+}
+.container{
+  width: 1511px;
+  height: 282px;
+  padding: 92px 0 180px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+.footer2-1{
+  width: 269px;
+  gap: 20px;
+}
+.footer2-1>img{
+  width: 98px;
+}
+.footer2-1>p{
+  color: white;
+}
+.footer2 .g20>li{
+  padding-bottom: 20px;
+}
+footer .copy{
+  height: 150px;
+  color: white;
+  background-color: #121212;
+}
+footer .sns{
+  display: flex;
+  align-items: start;
+  padding-top: 10px;
+}
+footer .sns a{
+  padding-right: 10px;
+}
+
 @media(max-width: 1440px){
 body{
     overflow-x: unset;
