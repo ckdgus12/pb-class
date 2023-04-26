@@ -17,6 +17,16 @@ label,img,input,select,textarea,button{vertical-align:middle;}
 hr{display:none;}
 main,header,section,nav,footer,aside,article,figure{display:block;}
 a{color:#000;text-decoration:none;}
+.h2_tit{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+.stit{
+ margin: 3px 0 38px;
+ text-align: center;
+}
  
 /* Form */
 textarea { border:1px solid #dbdbdb;}
