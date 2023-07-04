@@ -48,6 +48,23 @@
     position: static;
     transform: translate(0);
   }
+
+  /* Change Order */
+  .download .inner, .create .inner{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+  .download .inner .dese,
+  .create .inner .dese{
+    order: 1;
+  }
+  .download .inner .preview,
+  .create .inner .preview{
+    order: 2;
+  }
+
+
   .desc,
   .preview{
     float: none;
